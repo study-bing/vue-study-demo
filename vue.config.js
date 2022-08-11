@@ -19,6 +19,7 @@ function resolve(dir) {
 
 module.exports = defineConfig({
     transpileDependencies: true,
+    parallel: false,
     pluginOptions: {
         'style-resources-loader': {
             preProcessor: 'less',
