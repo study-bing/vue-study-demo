@@ -1,9 +1,9 @@
 /*
  * @Author: virgouss gu.shi.chen15@qq.com
  * @Date: 2022-08-05 13:44:03
- * @LastEditors: virgouss gu.shi.chen15@qq.com
- * @LastEditTime: 2022-08-09 20:18:02
- * @FilePath: /task/vue.config.js
+ * @LastEditors: linBin
+ * @LastEditTime: 2022-08-11 14:23:05
+ * @FilePath: /vue-study-demo/vue.config.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
 const { defineConfig } = require('@vue/cli-service')
