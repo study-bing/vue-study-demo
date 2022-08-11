@@ -1,0 +1,60 @@
+.flex {
+    display: flex;
+}
+.flex-s-b {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-s-a {
+    display: flex;
+    justify-content: space-around;
+}
+.flex-c {
+    display: flex;
+    justify-content: center;
+}
+.flex-a-c {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+// 页面通用样式
+.content {
+    background-color: #ffffff;
+    padding: 24px;
+    overflow: auto;
+    flex: 1;
+}
+// 标题
+.page-title {
+    position: relative;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #505050;
+    padding-bottom: 18px;
+    line-height: 24px;
+    flex-shrink: 0;
+
+    &::before {
+        content: '';
+        width: 4px;
+        height: 24px;
+        background: #396ce3;
+        position: absolute;
+        left: 0;
+    }
+}
+.page-desc {
+    margin-bottom: 16px;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+.mt-16 {
+    margin-top: 16px;
+}
+.fs-bold{
+    font-weight: bold;
+}
